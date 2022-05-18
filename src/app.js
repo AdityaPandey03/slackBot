@@ -1,4 +1,5 @@
 import { RTMClient }  from '@slack/rtm-api'
+import 'dotenv/config'
 import { SLACK_OAUTH_TOKEN, BOT_SPAM_CHANNEL } from './constants'
 import  { WebClient } from '@slack/web-api';
 const packageJson = require('../package.json')
